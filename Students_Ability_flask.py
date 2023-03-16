@@ -1,8 +1,9 @@
 import streamlit as st
+import pandas as pd
+import sklearn
+from matplotlib import pyplot as plt
 def main():
-   import pandas as pd
-   import sklearn
-   from matplotlib import pyplot as plt
+
    data=pd.read_excel("DUET Data - Copy.xlsx")
    data=data.dropna()
    data=data[data['Graduation Marks']>=50]
