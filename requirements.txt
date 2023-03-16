@@ -1,4 +1,4 @@
-streamlit1.20.0 
+streamlit
 pandas1.5.3
 pickle3.7.4
 gunicorn
