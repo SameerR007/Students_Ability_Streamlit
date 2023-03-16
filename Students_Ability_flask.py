@@ -1,7 +1,7 @@
 import streamlit as st
 def main():
    import pandas as pd
-   from sklearn.cluster import KMeans
+   import sklearn
    from sklearn import preprocessing
    from matplotlib import pyplot as plt
    data=pd.read_excel("DUET Data - Copy.xlsx")
