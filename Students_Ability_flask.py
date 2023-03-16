@@ -1,7 +1,6 @@
 import streamlit as st
 def main():
    import pandas as pd
-   import seaborn as sns
    from sklearn.cluster import KMeans
    from sklearn import preprocessing
    from matplotlib import pyplot as plt
