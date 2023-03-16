@@ -1,7 +1,7 @@
 import streamlit as st
 def main():
    import pandas as pd
-   from scikit-learn
+   import scikit-learn
    from matplotlib import pyplot as plt
    data=pd.read_excel("DUET Data - Copy.xlsx")
    data=data.dropna()
