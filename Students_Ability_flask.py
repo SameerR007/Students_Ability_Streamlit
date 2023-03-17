@@ -4,8 +4,8 @@ def main():
     import pickle
     kmeans_new=pickle.load(open("model.pkl","rb"))
     clusters_new=pd.read_excel("clusters_new.xlsx")
-    gm=st.number_input("Graduation Marks")
-    em=st.number_input("Entrance Marks")
+    gm=st.number_input("Graduation Marks (in percentage)")
+    em=st.number_input("Entrance Marks (out of 200)")
     input_para=[gm,em]
     input_para[0]=(input_para[0]-77.3172)/9.2327
     input_para[1]=(input_para[1]-127.9162)/27.4483
